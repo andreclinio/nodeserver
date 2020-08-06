@@ -14,8 +14,10 @@ const createServer = async () => {
         port: PORT,
         host: HOST,
     });
+    console.log(">> Rotas");
     server.route(routes);
-    await initializePlugins(server);
+
+    console.log(">> plugin jwt");
     await server.register(jwtAuth);
     
     // Definindo estratégia de autenticação

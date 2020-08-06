@@ -1,2 +1,2 @@
-nodes_modules
-.dbcache
+nodes_modules/
+.dbcache/
