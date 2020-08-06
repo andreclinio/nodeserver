@@ -1,0 +1,30 @@
+{
+  "name": "ead-api",
+  "version": "0.0.1",
+  "description": "blah blah",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon src/index.js",
+    "eslint": "eslint ./src/**/*.js"
+  },
+  "author": "andre",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^19.2.0",
+    "@hapi/joi": "^17.1.1",
+    "bcryptjs": "^2.4.3",
+    "dotenv-safe": "^8.2.0",
+    "hapi-auth-jwt2": "^10.1.0",
+    "joi": "^17.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.26",
+    "uuid": "^8.3.0"
+  }
+}
